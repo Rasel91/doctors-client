@@ -2,8 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import chair from '../../../assets/images/chair.png'
-import button from '../../../Common/Button';
+import button from '../../../Common/PrivateButton';
 import bg from '../../../assets/images/bg.png'
+import PrivateButton from '../../../Common/PrivateButton';
 
 const Banner = () => {
    return (
@@ -15,7 +16,9 @@ const Banner = () => {
             <div className=''>
                <h1 className="text-4xl font-bold">Your New Smile Starts Here</h1>
                <p className="py-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
-              <Link to='/about'> {button}</Link>
+              
+              
+              <Link to='/about'> <PrivateButton>Get Started</PrivateButton></Link>
             </div>
          </div>
       </div>
