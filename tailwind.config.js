@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     extend: {},
   },
+  
   daisyui: {
     themes: [
       {
@@ -19,13 +20,6 @@ module.exports = {
 
           "base-100": "#FFFFFF",
 
-          "info": "#3ABFF8",
-
-          "success": "#36D399",
-
-          "warning": "#FBBD23",
-
-          "error": "#F87272",
         },  
       },
     ],
