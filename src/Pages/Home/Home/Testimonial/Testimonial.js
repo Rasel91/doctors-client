@@ -16,17 +16,17 @@ const Testimonial = () => {
 
       },
       {
-         id: 1,
-         icon: people1,
-         name: 'Winson Herry',
+         id: 2,
+         icon: people2,
+         name: 'Jenefar Huss',
          country: 'California',
          description: 'It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content',
 
       },
       {
-         id: 1,
-         icon: people1,
-         name: 'Winson Herry',
+         id: 3,
+         icon: people3,
+         name: ' Herry Dal',
          country: 'California',
          description: 'It is a long established fact that by the readable content of a lot layout. The point of using Lorem a more-or-less normal distribu to using Content here, content',
 
@@ -45,7 +45,7 @@ const Testimonial = () => {
             </div>
          </div>
 
-         <div className='grid gap-4 md:grid-cols-3 grid-cols-3 lg:grid-cols-3'>
+         <div className='grid gap-4 md:grid-cols-2 grid-cols-1 lg:grid-cols-3'>
             {
                testData.map(testdata=><TestiCard key={testdata.id}
 

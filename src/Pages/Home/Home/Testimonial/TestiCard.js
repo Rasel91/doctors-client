@@ -4,18 +4,19 @@ const TestiCard = ({ testdata }) => {
    const { name, icon, country, description } = testdata;
 
    return (
-      <div className="card shadow-xl text-accent text-neutral-content">
-         <div className="card-body items-center text-center">
+      <div className="card shadow-xl text-black  text-neutral-content">
+         <div className="card-body  ">
             
             <p>{description}</p>
-            <div className="card-actions justify-end flex justify-between">
+            <div className="card-actions flex justify-start items-center">
               <div>
               <img src={icon} alt="" />
               </div>
                
-             <div>
-             <button className="btn btn-ghost">{name}</button>
-               <button className="btn btn-ghost">{country}</button>
+             <div >
+               <h1>{name}</h1>
+               <h1>{country}</h1>
+
              </div>
               
             </div>
