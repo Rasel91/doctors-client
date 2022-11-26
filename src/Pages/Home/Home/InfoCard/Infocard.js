@@ -5,7 +5,7 @@ const Infocard = ({ cart }) => {
    const { name, description, icon, bgClass } = cart;
 
    return (
-      <div className={`card card-side p-6 text-white bg-base-100 shadow-xl ${bgClass}`}>
+      <div className={`card md:card-side p-6 text-white bg-base-100 shadow-xl ${bgClass}`}>
          <figure>
             <img src={icon} alt="Movie" />
 

@@ -18,7 +18,7 @@ const Infocards = () => {
 
    },
    {
-      id: 1,
+      id: 2,
       name:'Opening Hours',
       description:'Open at 9.00 am to 5.00 pam',
       icon:marker ,
@@ -26,7 +26,7 @@ const Infocards = () => {
 
    },
    {
-      id: 1,
+      id: 3,
       name:'Opening Hours',
       description:'Open at 9.00 am to 5.00 pam',
       icon:phone ,
@@ -37,7 +37,7 @@ const Infocards = () => {
 
 
    return (
-      <div className='grid mt-28 gap-6 md: grid-cols-2 lg:grid-cols-3'>
+      <div className='grid mt-28 gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
          {
             cartData.map(cart=><Infocard
             key={cart.id}

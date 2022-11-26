@@ -16,15 +16,15 @@ const ServiceCards = () => {
          bgClass: 'bg-primary'
       },
       {
-         id: 1,
-         name: 'Fluoride Treatment',
+         id: 2,
+         name: 'Cavity Filling',
          description: 'Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the',
          icon: cavity,
          bgClass: 'bg-primary'
       },
       {
-         id: 1,
-         name: 'Fluoride Treatment',
+         id: 3,
+         name: 'Teeth Whitening',
          description: 'Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the',
          icon: whitening,
          bgClass: 'bg-primary'
@@ -37,7 +37,7 @@ const ServiceCards = () => {
           <h3 className='text-secondary font-bold text-3xl'>OUR SERVICES</h3>
           <h2 className='text-4xl'>Services We Provide</h2>
          </div>
-         <div className='grid gap-3 md:grid-cols-2 lg:grid-cols-3 '>
+         <div className='grid gap-3 md:grid-cols-2 lg:grid-cols-3  '>
             {
                serviceData.map(service => <ServiceCard
                   key={service.id}

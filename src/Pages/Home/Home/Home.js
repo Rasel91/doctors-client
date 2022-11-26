@@ -1,15 +1,16 @@
 import React from 'react';
 import Banner from './Banner';
-import Infocard from './InfoCard/Infocard';
 import Infocards from './InfoCard/Infocards';
 import ServiceCards from './Services/ServiceCards';
+import Treatment from './Tetment/Treatment';
 
 const Home = () => {
       return (
             <div className='p-8'>
-                 <Banner></Banner>
-                 <Infocards></Infocards>
-                 <ServiceCards></ServiceCards>
+                  <Banner></Banner>
+                  <Infocards></Infocards>
+                  <ServiceCards></ServiceCards>
+                  <Treatment></Treatment>
             </div>
       );
 };
