@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom';
 
 import chair from '../../../assets/images/chair.png'
 import button from '../../../Common/Button';
+import bg from '../../../assets/images/bg.png'
 
 const Banner = () => {
    return (
-      <div className="hero ">
+      <div className={`hero  ${bg} `}>
          <div className="hero-content flex-col lg:flex-row-reverse">
             <img alt='' src={chair}className="w-1/2 rounded-lg shadow-2xl" />
             <div className=''>
